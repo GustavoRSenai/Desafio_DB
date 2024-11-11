@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.formulario{
+    position: relative;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px black;
+    margin: 40px 0 40px 0;
+}
+.formulario h1{
+    text-align: center;
+    margin: 15px 5px 0px 5px;
+    text-shadow: 2px 2px 3px black;
+    font-size: 34px;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.formulario form input{
+    width: 340px;
+    height: 30px;
+    margin: 7px;
+    border: solid 2px;
+    border-color: rgba(128, 128, 128, 0.571);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.formulario form select{
+    width: 354px;
+    height: 34px;
+    margin: 7px;
+    border: solid 2px;
+    border-color: rgba(128, 128, 128, 0.571);
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 3px 3px 5px;
+}
+.formulario form button{
+    width: 354px;
+    height: 34px;
+    margin: 7px;
+    margin-bottom: 10px;
+    border: solid 2px;
+    border-color: rgba(87, 7, 7, 0.571);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px;
+    background-color: #c93e27;
+}
+.formulario form button:hover{
+    background-color: #892c1c;
+    border-color: rgba(56, 5, 5, 0.571);
+}
+.formulario form a:hover{
+    background-color: #892c1c;
+    border-color: rgba(56, 5, 5, 0.571);
+}
+.formulario a{
+    text-align: center;
+    align-self: flex-start;
+    text-decoration: none;
+    width: 80px;
+    height: 25px;
+    color: black;
+    margin: 7px;
+    margin: 0 0 10px 20px;
+    border: solid 2px;
+    border-color: rgba(87, 7, 7, 0.571);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+    background-color: #c93e27;
+}
+.tabela{
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 40px 0 40px 0;
+}
+.tabela h2{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 10px 0 10px;
+    color: rgb(255, 255, 255);
+}
+table{
+   border: ridge 3px rgb(255, 255, 255);
+   margin: 20px 10px;
+}
+table p{
+    font-size: 18px;
+}
+table th, td{
+    border: solid 1.5px rgb(255, 255, 255);
+}
+table td, a{
+    padding: 3px;
+}
+table a{
+    padding: 0.75px;
+    background-color: blueviolet;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+table a:hover{
+    padding: 0.75px;
+    background-color: rgb(90, 24, 153);
+    border-radius: 3px;
+    text-decoration: none;
+    color: lightgray;
+}
+p{
+    font-size: 18px;
+    padding: 10px;
+}
